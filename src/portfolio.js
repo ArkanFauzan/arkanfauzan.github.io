@@ -16,14 +16,14 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Arkan Fauzan Ayyasyi",
+  username: "Arkan Fauzan",
   title: "Hi all, I'm Arkan",
   subTitle: emoji(
-    "A passionate Web Developer who focuses on Backend 🚀 having an experience of building Web applications with PHP / .NET Core / MySQL / MongoDB / Reactjs / Vuejs and some other cool libraries and frameworks."
+    "A passionate Web Developer 🚀 having an experiences of building Web applications with PHP / .NET Core / MySQL / MongoDB / Reactjs / Vuejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -58,7 +58,7 @@ const skillsSection = {
       "⚡ Develop enhancement & bugs fixing for your web applications"
     ),
     emoji(
-      "⚡ Integration of third party services such as Payment Gateway / OpenAI / AWS / Digital Ocean"
+      "⚡ Integration with third party services such as Payment Gateway / OpenAI / AWS / Digital Ocean"
     ),
   ],
 
