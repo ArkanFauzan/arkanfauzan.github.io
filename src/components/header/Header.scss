@@ -186,3 +186,13 @@
     font-size: 1em;
   }
 }
+@media (max-width: 480px) {
+  .header .logo-name {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 415px) {
+  .header .logo-name {
+    font-size: 0.7em;
+  }
+}
