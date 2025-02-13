@@ -57,7 +57,8 @@ export default function Greeting() {
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
-                alt="Arkan's Profile Picture"
+                alt="Arkan Fauzan Ayyasyi | Profile Picture"
+                title="Arkan Fauzan Ayyasyi | Profile Picture"
                 src={require("../../assets/images/arkanFauzan.png")}
               ></img>
             )}
