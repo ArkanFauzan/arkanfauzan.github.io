@@ -23,16 +23,6 @@
 }
 @media (max-width: 768px) {
   .splash-title-container {
-    font-size: 1em;
-  }
-}
-@media (max-width: 480px) {
-  .splash-title-container {
-    font-size: 0.8em;
-  }
-}
-@media (max-width: 415px) {
-  .splash-title-container {
-    font-size: 0.7em;
+    font-size: 1.3em;
   }
 }
