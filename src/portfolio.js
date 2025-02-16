@@ -171,32 +171,39 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Web Developer",
+      company: "Icreativelabs",
+      companylogo: require("./assets/images/icreativelabs-logo.jpg"),
+      date: "November 2021 – Present",
+      desc: "Icreativelabs is an IT Consultant. I have done several projects for Icreativelabs by following client's requirements. There are:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created backend for analytical landing page using PHP Laravel and MongoDB aggregation pipeline. This project analyze visitor, unique visitor, popular pages, user browser, devices, and IP geolocation.",
+        "Created Landing Page Generator using PHP and Vue JS. This project is to create landing page website without coding.",
+        "Created Content Management System (CMS) using PHP with Drupal 9 and TWIG template.",
+        "Created backend for network Inventory management system and port reservation using .Net Core (C#).",
+        "Sahabatku (mobile app). I have created a backend for top-up balance with payment integration."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Bootcamp Mentor (Front-End Web Development)",
+      company: "Dibimbing.id",
+      companylogo: require("./assets/images/dibimbing-logo.jpg"),
+      date: "August 2023 – February 2025",
+      desc: "Mentoring bootcamp class from batch 13 to 21. The topics are:",
+      descBullets: [
+        "Live Coding Class: Improve student understanding in JavaScript Algorithm. This class discuss about coding implementation to solve problem using data structure, conditional statement, nested looping, searching, and sorting.",
+        "Career Class: As a career switcher (from chemical analyst), I share to students what they need to prepare to achieve their goal of becoming a Web Developer."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Bootcamp Instructor (Web Development)",
+      company: "Dibimbing.id",
+      companylogo: require("./assets/images/dibimbing-logo.jpg"),
+      date: "March 2022 – December 2023",
+      desc: "Provide mentoring to students if they need additional sessions besides regular class to improve their understanding of Web Development (Front-End and Back-End) using React JS and Express JS. This session is like one-on-one mentoring."
     }
   ]
 };
