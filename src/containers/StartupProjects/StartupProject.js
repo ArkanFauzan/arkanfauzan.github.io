@@ -17,6 +17,20 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+
+  const GetDescBullets = ({descBullets, isDark}) => {
+    return descBullets
+      ? descBullets.map((item, i) => (
+          <li
+            key={i}
+            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+          >
+            {item}
+          </li>
+        ))
+      : null;
+  };
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -43,21 +57,26 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
-                    </div>
-                  ) : null}
                   <div className="project-detail">
+                    {project.image ? (
+                      <div className="project-image">
+                        <img
+                          src={project.image}
+                          alt={project.projectName}
+                          className="card-image"
+                        ></img>
+                      </div>
+                    ) : null}
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
                       {project.projectName}
                     </h5>
+                    <p
+                      className={isDark ? "dark-mode card-title" : "card-subtitle"}
+                    >
+                      {project.projectFor ?? ""}
+                    </p>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
@@ -65,6 +84,11 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <ul>
+                      <GetDescBullets descBullets={project.projectDescBullets} isDark={isDark} />
+                    </ul>
+                  </div>
+                  <div className="project-footer">
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
@@ -83,6 +107,7 @@ export default function StartupProject() {
                       </div>
                     ) : null}
                   </div>
+
                 </div>
               );
             })}

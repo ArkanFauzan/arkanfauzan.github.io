@@ -180,7 +180,7 @@ const workExperiences = {
       date: "November 2021 – Present",
       desc: "Icreativelabs is an IT Consultant. I have done several projects for Icreativelabs by following client's requirements. There are:",
       descBullets: [
-        "Created backend for analytical landing page using PHP Laravel and MongoDB aggregation pipeline. This project analyze visitor, unique visitor, popular pages, user browser, devices, and IP geolocation.",
+        "Created backend for analytical landing page using PHP Laravel and MongoDB. This project analyze visitor, unique visitor, popular pages, user browser, devices, and IP geolocation.",
         "Created Landing Page Generator using PHP and Vue JS. This project is to create landing page website without coding.",
         "Created Content Management System (CMS) using PHP with Drupal 9 and TWIG template.",
         "Created backend for network Inventory management system and port reservation using .Net Core (C#).",
@@ -219,34 +219,88 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "",//require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Landing Page Analytics",
+      projectFor: "For: Icreativelabs",
+      projectDesc: "I have created backend using PHP Laravel and MongoDB. The features I have made are:",
+      projectDescBullets: [
+        "Unique visitors, total visitors, visit duration, page view pervisit",
+        "Get visitor location using IP address geolocation",
+        "Visitor browsers",
+        "Visitor Operating System (OS)"
+      ],
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "",//require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Landing Page Generator",
+      projectFor: "For: Icreativelabs",
+      projectDesc: "This project is to create a landing page without coding using PHP (as Backend) and Vue JS (as Frontend). In this project, I created Full Backend and customize a few part in Frontend. The features I have made are:",
+      projectDescBullets: [
+        "Create multiple pages with drag and drop content",
+        "Customize page path url",
+        "Create custom form. The available fields are: text input, textarea input, radio, select, checkbox",
+        "Embedded custom form in page",
+        "Page personalization. This is for displaying different page based on visitor's tag",
+        "Built-in SEO tools, like meta title, meta description, and robots.txt"
+      ],
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
+        //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+        image: "",//require("./assets/images/saayaHealthLogo.webp"),
+        projectName: "Content Management System (CMS)",
+        projectFor: "For: Icreativelabs",
+        projectDesc: "I am a full-stack developer in this project. This project is to create a CMS website for internet provider company using PHP, Drupal, and TWIG template engine. The features I have made are:",
+        projectDescBullets: [
+          "Customize internet package from technical language to marketing language",
+          "Create a bundling internet package to become a product catalog",
+          "Integrate with surrounding internal system"
+        ],
+        footerLink: [
+          // {
+          //   name: "Visit Website",
+          //   url: "http://saayahealth.com/"
+          // }
+          //  you can add extra buttons here.
+        ]
+      },
+      {
+        image: "",//require("./assets/images/saayaHealthLogo.webp"),
+        projectName: "Network Inventory Management System",
+        projectFor: "For: Icreativelabs",
+        projectDesc: "I am a back-end developer for this project, which was built using .NET Core (C#). This project is for managing network devices. The features I have made are:",
+        projectDescBullets: [
+          "Devices inventory for router and switch",
+          "Port inventory (device can have many ports)",
+          "Trunk capacity inventory, to divide bandwidth from 1 port to another device with multiple ports",
+          "Port reservation"
+        ],
+        footerLink: [
+          // {
+          //   name: "Visit Website",
+          //   url: "http://saayahealth.com/"
+          // }
+          //  you can add extra buttons here.
+        ]
+      },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
